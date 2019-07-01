@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>DeepMind</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<style>
+        body {
+            background-image: url(img/fundo1.jpg);
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-size: 100%;
+        }
+    </style>
+<body>
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand mb-0 h1" href="index.html" title="Jônatas Tavares">DeepMind</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html" title="Início">Início</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="Sobre">
+                        Sobre
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="curiosidade.html"
+                            title="Curiosidade">Curiosidade</a>
+                        <a class="dropdown-item" href="objetivo.html"
+                            title="Objetivos">Objetivos</a>
+                
+                        <a class="dropdown-item" href="historia.html"
+                            title="Historia">Historia</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                        <a class="nav-link" href="contatos.html" title="Contatos">Contatos</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <br><br><br>
+    <center>
+        <div class="card" style="width: 60rem;">
+            <img src="img/sl.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <img src="img/DeepMind_logo.png">
+                <br><br><br>
+                <hr class="my-4">
+                <h2>Sobre</h2>
+                <hr class="my-4">
+                <p class="card-text">
+                    Adquirida pelo Google em 2014, a empresa criou uma rede neural que aprende a jogar jogos eletrônicos
+                    de uma forma semelhante a dos humanos, bem como uma máquina Turing Neuronal, ou de uma rede neural
+                    que pode ser capaz de acessar a memória externa, como uma máquina de Turing convencional, resultando
+                    em um computador que imita a memória de curto prazo do cérebro humano.
+                </p>
+                <p>
+                    A empresa fez manchetes em 2016, após seu programa , AlphaGo, ganhar de um jogador profissional de
+                    Go pela primeira vez em outubro de 2015 e, novamente, quando AlphaGo bateu Lee Sedol , o campeão
+                    mundial em uma partida de cinco jogos, o que foi o tema de um documentário.
+                </p>
+                <p>
+                    Um programa mais genérico, AlphaZero, consegue superar os programas mais poderosos que jogam Go,
+                    xadrez e shogi (xadrez Japonês) depois de algumas horas de jogo contra si mesmo usando aprendizado
+                    por reforço.
+                </p>
+            </div>
+        </div>
+    </center>
+
+</body>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js "
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo "
+    crossorigin="anonymous "></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js "
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1 "
+    crossorigin="anonymous "></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js "
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM "
+    crossorigin="anonymous "></script>
+<script>
+    $("#exampleModalCenter").on('hidden.bs.modal', function (e) {
+        $("#exampleModalCenter video").attr("src", $("#exampleModalCenter video").attr("src"));
+    });
+</script>
+
+</html>
